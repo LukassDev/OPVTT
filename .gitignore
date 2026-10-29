@@ -1,0 +1,26 @@
+# Dependencies
+/node_modules/
+
+# Build output and packaged installers
+/out/
+/release/
+/dist/
+/coverage/
+
+# Local application data, databases, backups and imported media
+/dados/
+
+# Local copies of media from the original project
+/public/images/
+/public/videos/
+
+# Logs and local environment
+*.log
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
